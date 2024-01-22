@@ -221,7 +221,6 @@ def data_analysis6(collection):
 
 
 def main():
-
     collection, conn = make_connection()
     data_analysis1(collection, conn)
     data_analysis2(conn) 
@@ -229,3 +228,6 @@ def main():
     data_analysis4(conn)
     data_analysis5(collection, conn) 
     data_analysis6(collection)
+
+if __name__ == "__main__":
+    main()
